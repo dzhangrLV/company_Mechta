@@ -1,0 +1,63 @@
+company: Mechta
+  departments
+    department_1
+      employees
+        names
+          Olga
+            quantity = 4
+            position = accountant
+          Dmitry
+            quantity = 3
+          Ivan
+            quantity = 2
+          other_employees
+            names = unknown
+        salary = high
+
+    department_2
+      employees
+        names
+          Roman
+            quantity = 4
+            position = lawyer
+          Maxim
+            quantity = 2
+            position = driver
+        ages = under_30
+        salary = low
+
+    department_3
+      employees
+        names
+          Olga
+            quantity = 1
+            position = lawyer
+          Ivan
+            quantity = 1
+            position = builder
+          Nikolay
+            quantity = 1
+            position = builder
+        salary = low
+
+    department_4_5
+      department_4
+        employees
+          names
+            Yulia
+              quantity = 5
+              position = secretary
+          ages = a_little_over_30
+      department_5
+        employees
+          ages = retirement_age
+        salary = middle
+
+    department_6
+      employees
+        names
+          Igor_Victorovitch
+            quantity = 1
+            position = Head of security
+        ages = over_50
+        salary = low
